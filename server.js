@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/test');
+mongoose.connect('mongodb://heroku_xwjt3x7k:47lvksjg48s8o219jdj1ggfrc5@ds023315.mlab.com:23315/heroku_xwjt3x7k');
 var db = mongoose.connection;
 mongoose.Promise = global.Promise;
 
