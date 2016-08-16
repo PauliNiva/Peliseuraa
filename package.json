@@ -11,7 +11,7 @@
     "preinstall": "typings install",
     "postinstall": "webpack --config ./webpack.config.js --progress --colors",
     "prestart": "webpack",
-    "start": "concurrently \"webpack --watch --colors\" \"nodemon server.js\" ",
+    "start": "concurrently \"webpack --watch --colors\" \"nodemon server.js\" \"tsc -p\"",
     "typings": "typings"
   },
   "license": "MIT",
