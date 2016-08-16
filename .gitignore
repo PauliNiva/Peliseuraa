@@ -45,5 +45,5 @@ jspm_packages
 .DS_Store
 
 typings
-/public/main.js
-/public/vendor.js
+public/main.js
+public/vendor.js
