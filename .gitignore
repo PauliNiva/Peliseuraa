@@ -47,3 +47,5 @@ jspm_packages
 typings
 public/main.js
 public/vendor.js
+app/**/*.js
+app/**/*.js.map
