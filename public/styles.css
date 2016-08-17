@@ -25,3 +25,9 @@ table th, table tr td {
 	opacity: 0.9;
 }
 
+.bigbutton {
+	max-width: 600px;
+	height: 50px;
+
+}
+
